@@ -1,0 +1,696 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+marquee{
+    position: absolute;
+    z-index: -1;
+}
+.h1_title{
+    position: absolute;
+    top: 150px;
+    color: chocolate;
+    font-size: 70px;
+}
+.p_title{
+    position: absolute;
+    top: 100px;
+    color: chocolate;
+    font-size: 70px;
+    left: 250px;
+    
+}
+
+.numbers{
+    margin-top: 100px;
+    position: relative;
+
+}
+.numbers input{
+    width: 100px;
+    height: 50px;
+    border: 2px solid;
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+    border-radius: 10px;
+box-shadow: grey -3px -3px 3px 0px ;
+}
+.numbers input:focus{
+    border: 4px double;
+    background:goldenrod;
+
+}
+.buttons{
+    margin-top: -100px;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 20px;
+   
+}
+.buttons input{
+    width: 50px;
+    height: 70px;
+    font-size: 30px;
+    border: 2px solid;
+    text-align: center;
+    border-radius: 10px;
+box-shadow: grey -3px -3px 3px 0px ;
+
+}
+.buttons input:focus{
+    border-radius: 50%;
+    background: green;
+    border: 4px double;
+
+}
+#h11{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+#meryem1{
+ display: none;
+}
+#meryem0{
+   position: absolute; 
+   width: 200px;
+   top:-200px;
+   left:-40px;
+   z-index: -1;
+display: block;
+}
+#meryem2{
+    display: none;
+   }
+   #meryem00{
+    position: absolute; 
+    width: 200px;
+    top:-200px;
+    left:130px;
+    z-index: -1;
+ display: block;
+ }
+ #sinav_button{
+    position: absolute;
+    top: 850px;
+    font-size: 50px;
+    background: chocolate; 
+    border-radius: 20px;
+} 
+ .sinav{
+    position: relative;
+    top: 400px;
+right: 0px;
+display: none;
+
+ }
+ .tam_puan{
+    color: chocolate;
+ }
+ .soru{
+    font-size: 30px;
+    line-height: 50px;
+ }
+ #soru1{
+    position: absolute;
+width: 200px;
+height: 200px;
+top: 200px;
+box-shadow: 0 0 20px;
+padding: 20px;
+background: linear-gradient(yellow,blue);
+ }
+ #soru1 input{
+    width: 80px;
+    height: 70px;
+    font-size: 25px;
+    text-align: center;
+float: left;
+border-radius: 10px;
+
+ }
+ #soru1.hidden{
+    visibility: hidden;
+    }
+ #soru2{
+    position: absolute;
+    top: 50px;
+width: 200px;
+height: 200px;
+
+box-shadow: 0 0 20px;
+padding: 20px;
+background: linear-gradient(red,rgb(240, 167, 167));
+ }
+ #soru2 input{
+    width: 80px;
+    height: 70px;
+float: left;
+border-radius: 10px;
+font-size: 25px;
+    text-align: center;
+ }
+ #soru2.hidden{
+    visibility: hidden;
+    }
+ #soru3{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 700px;
+    box-shadow: 0 0 20px;
+    padding: 20px;
+    background: linear-gradient(green,yellow);
+     }
+     #soru3 input{
+        width: 80px;
+        height: 70px;
+    float: left;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+     }
+     #soru3.hidden{
+        visibility: hidden;
+        }
+     #soru4{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        top: 950px;
+        box-shadow: 0 0 20px;
+        padding: 20px;
+        background: linear-gradient(chocolate,yellow);
+         }
+         #soru4 input{
+            width: 80px;
+            height: 70px;
+        float: left;
+        border-radius: 10px;
+        font-size: 25px;
+    text-align: center;
+         }
+         #soru4.hidden{
+            visibility: hidden;
+            }
+         #soru5{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            top: 1200px;
+            box-shadow: 0 0 20px;
+            padding: 20px;
+            background: linear-gradient(blue,black);
+             }
+             #soru5 input{
+                width: 80px;
+                height: 70px;
+            float: left;
+            border-radius: 10px;
+            font-size: 25px;
+    text-align: center;
+             }
+             #soru5.hidden{
+                visibility: hidden;
+                }
+             #soru6{
+                position: absolute;
+                width: 200px;
+                height: 200px;
+                top: 1200px;
+                box-shadow: 0 0 20px;
+                padding: 20px;
+                background: linear-gradient(pink,black);
+                 }
+                 #soru6 input{
+                    width: 80px;
+                    height: 70px;
+                float: left;
+                border-radius: 10px;
+                font-size: 25px;
+        text-align: center;
+                 }
+                 #soru6.hidden{
+                    visibility: hidden;
+                    }
+                    #soru7{
+                        position: absolute;
+                        width: 200px;
+                        height: 200px;
+                        top: 1200px;
+                        box-shadow: 0 0 20px;
+                        padding: 20px;
+                        background: linear-gradient(chocolate,black);
+                         }
+                         #soru7 input{
+                            width: 80px;
+                            height: 70px;
+                        float: left;
+                        border-radius: 10px;
+                        font-size: 25px;
+                text-align: center;
+                         }
+                         #soru7.hidden{
+                            visibility: hidden;
+                            }
+                            #soru8{
+                                position: absolute;
+                                width: 200px;
+                                height: 200px;
+                                top: 1200px;
+                                box-shadow: 0 0 20px;
+                                padding: 20px;
+                                background: linear-gradient(red,black);
+                                 }
+                                 #soru8 input{
+                                    width: 80px;
+                                    height: 70px;
+                                float: left;
+                                border-radius: 10px;
+                                font-size: 25px;
+                        text-align: center;
+                                 }
+                                 #soru8.hidden{
+                                    visibility: hidden;
+                                    }
+                                    #soru9{
+                                        position: absolute;
+                                        width: 200px;
+                                        height: 200px;
+                                        top: 1200px;
+                                        box-shadow: 0 0 20px;
+                                        padding: 20px;
+                                        background: linear-gradient(yellow,black);
+                                         }
+                                         #soru9 input{
+                                            width: 80px;
+                                            height: 70px;
+                                        float: left;
+                                        border-radius: 10px;
+                                        font-size: 25px;
+                                text-align: center;
+                                         }
+                                         #soru9.hidden{
+                                            visibility: hidden;
+                                            }
+                                            #soru10{
+                                                position: absolute;
+                                                width: 200px;
+                                                height: 200px;
+                                                top: 1200px;
+                                                box-shadow: 0 0 20px;
+                                                padding: 20px;
+                                                background: linear-gradient(green,black);
+                                                 }
+                                                 #soru10 input{
+                                                    width: 80px;
+                                                    height: 70px;
+                                                float: left;
+                                                border-radius: 10px;
+                                                font-size: 25px;
+                                        text-align: center;
+                                                 }
+                                                 #soru10.hidden{
+                                                    visibility: hidden;
+                                                    }
+                    
+            #sinav_button{
+                position: absolute;
+                top: 450px;
+                font-size: 20px; 
+            } 
+            .sinav_button{
+              opacity: 0;
+            }
+            #form_1.hidden{
+                visibility: hidden;
+              
+            }  
+            .sinav.active{
+display: block;
+            } 
+        
+           .end{
+            position: absolute;
+            width: 100%;
+            height: 100px;
+          top: 700px;
+          z-index: -1;
+
+           } 
+h3{
+    font-size: 25px;
+    text-indent: 20px;
+}
+
+.footer1{
+    position: absolute;
+    width: 80%;
+    height: 200px;
+    box-shadow: -2px 3px 12px;
+    top:500px;
+    left: 90px;
+    bottom: 200px;
+}
+
+#footer1{
+    position: absolute;
+    width: 80%;
+    height: 200px;
+    box-shadow: -2px 3px 12px;
+    top:400px;
+    left: 70px;
+    bottom: 200px;
+}
+a{
+    position: absolute;
+    top: 20px;
+   text-decoration:none;
+    font-size: 50px;
+color: black;
+}
+a:hover{
+    font-size: 60px;
+color: green;
+}
+/* (max-width:896px) */
+
+ @media(max-width:1280px){
+  
+        .numbers{
+            margin-top: 300px;
+            position: relative;
+            display: flex;
+right: -50px;
+
+        
+        }
+        .buttons{
+            margin-top: -100px;
+            display: inline-block;
+            margin-left: 90px;
+            margin-top: 20px;
+        }
+        #h11{
+            margin-top: 50px;
+            margin-left: 100px;
+            font-size: 50px;
+        }
+        #sinav_button{
+            position: absolute;
+            top: 850px;
+            font-size: 50px;
+            background: chocolate; 
+            border-radius: 20px;
+        } 
+        .sinav{
+            position: relative;
+            top: 600px;
+        right: 200px;
+         }
+         #sinav0{
+            position: relative;
+            top:0px;
+        right: 200px;
+         }
+         #soru1{
+            position: absolute;
+            top:300px;
+         }
+         #soru2{
+            position: absolute;
+            top: 300px;
+         }
+         #soru3{
+            position: absolute;
+            top: 300px;
+         }
+         #soru4{
+            position: absolute;
+            top: 300px;
+         }
+         #soru5{
+            position: absolute;
+            top: 300px;
+         }
+         #soru6{
+            position: absolute;
+            top: 300px;
+         }
+         #soru7{
+            position: absolute;
+            top: 300px;
+         }
+         #soru8{
+            position: absolute;
+            top: 300px;
+         }
+         #soru9{
+            position: absolute;
+            top: 300px;
+         }
+         #soru10{
+            position: absolute;
+            top: 300px;
+         }
+         #sinav_button{
+            position: absolute;
+            top: 750px;
+            font-size: 20px; 
+        } 
+       
+           .footer1{
+            position: absolute;
+            width: 80%;
+            height: 200px;
+            box-shadow: -2px 3px 12px;
+            top:1000px ;
+            left: 20px;
+            bottom:200px;
+            text-align: center;
+            padding-top: 30px;
+        
+        }
+       #footer1{
+        top:1500px;
+
+       }
+       #sinav0{
+        position: relative;
+        top: 250px;
+    right: 200px;
+     }
+     marquee{
+        position: absolute;
+        z-index: -1;
+    
+
+    }
+ }
+  @media(min-width:400px){
+    .h1_title{
+        position: absolute;
+        top: 150px;
+        color: chocolate;
+        font-size: 70px;
+    }
+    .p_title{
+        position: absolute;
+        top: 100px;
+        color: chocolate;
+        font-size: 70px;
+        left: 250px;
+    
+    }
+   
+      
+    #sinav_button{
+        position: absolute;
+        top: 850px;
+        font-size: 50px;
+        background: chocolate; 
+        border-radius: 20px;
+    } 
+
+ 
+     #soru1{
+        position: absolute;
+    width:  300px;
+    height: 300px;
+    top: 200px;
+    box-shadow: 0 0 20px;
+    padding: 25px;
+    background: linear-gradient(yellow,blue);
+     }
+     #soru1 input{
+        width: 90px;
+        height: 80px;
+        font-size: 35px;
+        text-align: center;
+    float: left;
+    border-radius: 10px;
+    
+     }
+     #soru2{
+        position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 200px;
+    box-shadow: 0 0 20px;
+    padding: 25px;
+    background: linear-gradient(red,rgb(240, 167, 167));
+     }
+     #soru2 input{
+        width: 90px;
+        height: 80px;
+    float: left;
+    border-radius: 10px;
+    font-size: 35px;
+        text-align: center;
+     }
+    #soru3{
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        top: 200px;
+        box-shadow: 0 0 20px;
+        padding: 25px;
+        background: linear-gradient(green,yellow);
+         }
+         #soru3 input{
+            width: 90px;
+            height: 80px;
+        float: left;
+        border-radius: 10px;
+        font-size: 35px;
+        text-align: center;
+         }
+    #soru4{
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        top: 200px;
+        box-shadow: 0 0 20px;
+        padding: 25px;
+        background: linear-gradient(chocolate,yellow);
+         }
+         #soru4 input{
+            width: 90px;
+            height: 80px;
+        float: left;
+        border-radius: 10px;
+        font-size: 35px;
+    text-align: center;
+         }
+         #soru5{
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            top: 200px;
+            box-shadow: 0 0 20px;
+            padding: 25px;
+            background: linear-gradient(blue,black);
+             }
+             #soru5 input{
+                width: 90px;
+                height: 80px;
+            float: left;
+            border-radius: 10px;
+            font-size: 35px;
+    text-align: center;
+             }
+             #soru6{
+                position: absolute;
+                width: 300px;
+                height: 300px;
+                top: 200px;
+                box-shadow: 0 0 20px;
+                padding: 20px;
+                background: linear-gradient(pink,black);
+                 }
+                 #soru6 input{
+                    width: 80px;
+                    height: 70px;
+                float: left;
+                border-radius: 10px;
+                font-size: 25px;
+        text-align: center;
+                 }
+                 #soru7{
+                    position: absolute;
+                    width: 300px;
+                    height: 300px;
+                    top: 200px;
+                    box-shadow: 0 0 20px;
+                    padding: 20px;
+                    background: linear-gradient(chocolate,black);
+                     }
+                     #soru7 input{
+                        width: 90px;
+                        height: 80px;
+                    float: left;
+                    border-radius: 10px;
+                    font-size: 25px;
+            text-align: center;
+                     }
+                     #soru8{
+                        position: absolute;
+                        width: 300px;
+                        height: 300px;
+                        top: 200px;
+                        box-shadow: 0 0 20px;
+                        padding: 20px;
+                        background: linear-gradient(yellow,black);
+                         }
+                         #soru9{
+                            position: absolute;
+                            width: 300px;
+                            height: 300px;
+                            top: 200px;
+                            box-shadow: 0 0 20px;
+                            padding: 20px;
+                            background: linear-gradient(chocolate,black);
+                             }
+                             #soru10{
+                                position: absolute;
+                                width: 300px;
+                                height: 300px;
+                                top: 200px;
+                                box-shadow: 0 0 20px;
+                                padding: 20px;
+                                background: linear-gradient(green,black);
+                                 }
+             h1{
+                font-size: 40px;
+             }
+             .footer1{
+                position: absolute;
+                width: 80%;
+                height: 200px;
+                box-shadow: -2px 3px 12px;
+                top:1000px ;
+                left: 20px;
+                bottom: 100px;
+            padding-top: 20px;
+                text-align: center;
+            }
+            
+            #footer1{
+                top:1600px ;
+
+            }
+            marquee{
+                position: absolute;
+                z-index: -1;
+                left: 40%;
+            }
+ } 
