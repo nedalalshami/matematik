@@ -478,7 +478,7 @@ right: -50px;
             bottom:200px;
             text-align: center;
             padding-top: 30px;
-        
+         line-height: 40px;
         }
        #footer1{
         top:1500px;
@@ -501,14 +501,15 @@ right: -50px;
         position: absolute;
         top: 150px;
         color: chocolate;
-        font-size: 70px;
+        font-size: 60px;
     }
     .p_title{
         position: absolute;
         top: 100px;
         color: chocolate;
         font-size: 70px;
-        left: 250px;
+        left: 240px;
+           line-height: 50px;
     
     }
    
@@ -682,6 +683,7 @@ right: -50px;
                 bottom: 100px;
             padding-top: 20px;
                 text-align: center;
+                  line-height: 40px;
             }
             
             #footer1{
